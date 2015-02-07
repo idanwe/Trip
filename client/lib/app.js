@@ -1,2 +1,1 @@
-
-angular.module('Tripio',['angular-meteor', 'ui.router']);
+angular.module('Tripio',['angular-meteor', 'ui.router', 'uiGmapgoogle-maps']);
