@@ -1,1 +1,7 @@
-<ui-gmap-google-map center="map.center" zoom="map.zoom"></ui-gmap-google-map>
+<ui-gmap-google-map
+  center="map.center"
+  zoom="map.zoom"
+  events="map.events"
+  options="map.options">
+</ui-gmap-google-map>
+

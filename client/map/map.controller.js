@@ -2,8 +2,15 @@ angular
   .module('Tripio')
   .controller('MapCtrl', MapCtrl);
 
-function MapCtrl($scope) {
-  $scope.map = { center: { latitude: 45, longitude: -73 }, zoom: 8 };
+function MapCtrl($scope, mapStyles) {
+  $scope.map = {
+    center: {
+      latitude: 0,
+      longitude: 0
+    },
+    zoom: 2,
+    options: {
+      styles: mapStyles.highlightCountries
+    }
+  };
 };
-
-
