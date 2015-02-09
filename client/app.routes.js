@@ -1,7 +1,7 @@
 angular.module('Tripio')
   .config(['$urlRouterProvider', '$stateProvider', '$locationProvider',
     function($urlRouterProvider, $stateProvider) {
-      $urlRouterProvider.otherwise("/map");
+      $urlRouterProvider.otherwise('/map');
 
       $stateProvider
         .state('map', {
