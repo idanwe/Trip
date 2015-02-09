@@ -3,7 +3,7 @@ angular
   .factory('mapStyles', mapStyles);
 
 function mapStyles() {
-  var highlightCountries = [
+  var highlightedCountries = [
     // Countries style
     {
       "featureType": "landscape.natural",
@@ -88,7 +88,8 @@ function mapStyles() {
   ];
 
   var service = {
-    highlightCountries: highlightCountries
+    highlightedCountries: highlightedCountries
   };
+
   return service;
 }

@@ -10,7 +10,7 @@ function MapCtrl($scope, mapStyles) {
     },
     zoom: 2,
     options: {
-      styles: mapStyles.highlightCountries
+      styles: mapStyles.highlightedCountries
     }
   };
 };
