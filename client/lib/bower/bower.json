@@ -2,7 +2,6 @@
   "name": "Tripio",
   "version": "0.0.1",
   "dependencies": {
-	"famous-angular": "0.5.2",
 	"angular-google-maps": "2.0.12"
   },
   "private": true
